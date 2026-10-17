@@ -1,0 +1,17 @@
+{
+  "name": "race-watch",
+  "version": "2.0.0",
+  "description": "A live Formula 1 race companion: timing tower, track map, race control feed, flag and penalty alerts, team radio with speech-to-text, and a test mode.",
+  "main": "f1-relay.js",
+  "scripts": {
+    "start": "node f1-relay.js --open"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "private": true
+}
